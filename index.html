@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GenPanda</title>
+    <link
+      rel="icon"
+      href="https://cdn-icons-png.flaticon.com/512/2465/2465301.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <style>
+      body {
+        color: black;
+        font-size: 20px;
+        font-family: "Lexend";
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: background-color 0.8s ease-in-out;
+      }
+      h1,
+      pre {
+        display: flex;
+        font-weight: bolder;
+        justify-content: center;
+        background-size: cover;
+        font-size: 100px;
+        margin-top: 15%;
+        background-image: url("journey-painting-wallpaper (1).jpg");
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+      }
+      #one {
+        height: 50vh;
+        border-radius: 30px;
+        width: 70%;
+        margin:  auto;
+      }
+      h1:hover {
+        background-image: url("7zWJXx.jpg");
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        transform: scale(1.1);
+        background-size: cover;
+        transition: transform 0.3s ease, color 0.8s ease-in-out;
+      }
+      #nav {
+        display: flex;
+        border: none;
+        border-radius: 20px;
+        max-width: fit-content; /* height: 5%; */
+        box-shadow: 8px 12px 30px rgba(202, 128, 42, 0.521);
+        background-color: bisque;
+        box-sizing: border-box;
+        margin-left: auto;
+        margin-right: auto;
+        color: inherit;
+
+        /* justify-content: center;
+              justify-items: center; */
+      }
+      input {
+        display: flex;
+        border: none;
+        border-radius: 12px;
+        background-color: white;
+        padding: 8px;
+        width: 200px;
+      }
+      button {
+        padding: 2px;
+        margin-left: 10px;
+        margin-top: 4.4px;
+        background-color: transparent;
+        border: none;
+        border-radius: 12px;
+        cursor: pointer;
+        color: inherit;
+
+      }
+      footer {
+        margin-top: 100%;
+        text-align: center;
+        font-weight: bolder;
+      }
+      select {
+        padding: 2px;
+        margin-left: 10px;
+        margin-top: 4.4px;
+        background-color: transparent;
+        border: none;
+        border-radius: 12px;
+        cursor: pointer;
+      }
+      iframe {
+        display: none;
+      }
+     
+      .search {
+        display: flex;
+        position: relative;
+        align-items: center;
+      }
+      .search i {
+        position: absolute;
+        right: 10px;
+        color: #111222;
+        cursor: pointer;
+      }
+      a{
+        text-decoration: none;
+      }
+      .search input {
+        padding-right: 30px;
+      }
+      #hh {
+        display: flex;
+        position: absolute;
+        width: max-content;
+        margin-bottom: 10px;
+      }
+
+      #nav {
+        /* display: none; */
+      }
+      #test {
+        display: flex;
+        flex-direction: row;
+        color: inherit;
+        /* transition: all 0.5s ; */
+        /* justify-content: center; */
+      }
+      
+      .menu{
+        border: 1px solid black;
+        color: inherit;
+      }
+      #menu2 {
+        display: none;
+        margin-top: 3%;
+        flex-direction: column;
+        position: absolute;
+        height: 100vh;
+        border-radius: 15px;
+        border-right: 2px none #111222;
+        box-shadow: 1px 12px 12px 1px wheat;
+        color: inherit;
+        margin-right: auto;
+        width: 10%;
+        align-content: space-around;
+        /* transition: width 0.4s ease-in-out; */
+      }
+      #menu2 button {
+        margin-bottom: 2px;
+      }
+
+      span{
+        position: relative;
+      }
+      #themel{
+        display: none;
+      }
+      #themed{
+        display: block;
+      }
+      #show{
+        display: flex;
+        flex-direction: row;
+        transition: all 0.4s ease-in-out;
+        justify-content: center;
+      } 
+      #show img{
+        width: 40%;
+        height: 40vh;
+        border: 1px solid black;
+        margin-right: 9px;
+        border-radius: 12px;
+        
+
+      }
+      #show img:hover{
+        transform: scale(1);
+        height: 50vh;
+        width: 50%;
+        transition: all 0.6s ease;
+
+      }
+
+    </style>
+  </head>
+  <body>
+    <div id="test">
+      <div class="menu">
+        <button id="hh"class = "gg">Home</button>
+        <div id="menu2">
+          <a href=""><button>Profile</button></a>
+          <a href=""><button>Preferences</button></a>
+          <a href=""><button>Settings</button></a>
+          <a href=""><button>Contact us</button></a>
+        </div>
+      </div>
+      <div id="nav">
+        <div class="search">
+          <input type="text" placeholder="Search" />
+          <i class="material-icons">search</i>
+        </div>
+      </div>
+
+      <button id="dick">Dark</button>
+    </div>
+
+    <div id="one">
+      <h1 id="g">GenPanda&#174;</h1>
+    </div>
+    <!-- <div id="con"></div>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/nu_pCVPKzTk?si=3IUtEqS4_BC0vPBY"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+      style="border-radius: 20px"
+    ></iframe> -->
+    <h3>Projects:</h3>
+    <h4>Weather panda:</h4>
+    <div id="show">
+      <img src="nav1.png" alt="">
+      <img src="nav2.png" alt="">
+      <img src="navwhite1.png" alt="">
+      <img src="navwhite2.png" alt="">
+
+    </div>
+    <footer>
+      All rights reserved &#169; GenPanda &#174; 2024
+      <h3>
+        <a href="mailto:budarajuaravind@gmail.com" style="text-decoration: none"
+          >Contact us</a
+        >
+      </h3>
+    </footer>
+    <script>
+      let hi = document.getElementById("g");
+      let nav = document.getElementById("nav");
+      let menu2 = document.getElementById("menu2");
+      let menu = document.querySelector(".menu");
+      let hh = document.getElementById("hh");
+      let themer = document.getElementById("dick")
+      
+      menu.addEventListener("mouseenter", () => {
+        menu2.style.display = "flex";
+        hh.style.height = "30vh";
+        hh.innerText = "There u go"
+        hh.style.textDecorationThickness = "4px"
+        hh.style.transition = "all 0.3s ease-in-out "
+        menu2.style.transition = "all 1s ease-in-out "
+
+
+
+
+      });
+     
+      menu.addEventListener("mouseleave", () => {
+        menu2.style.display = "none";
+        hh.style.height = "1vh";
+        hh.innerText = "Menu"
+        hh.style.textDecoration = "none"
+        hh.style.transition = "all 0.3s ease-in-out "
+
+      });
+      
+
+      themer.addEventListener("click",() => {
+        if(themer.innerText==="Dark"){
+          document.body.style.backgroundColor = "black"
+          document.body.style.color = "white"
+          document.body.style.fontWeight = "bolder"
+          themer.innerText = "Light"
+          menu.style.borderColor = "white"
+
+        }
+        else{
+          document.body.style.backgroundColor = "white"
+          document.body.style.color = "black"
+          themer.innerText = "Dark"
+        }
+
+      })
+      
+    </script>
+  </body>
+</html>
