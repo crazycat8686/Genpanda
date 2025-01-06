@@ -33,7 +33,7 @@
         justify-content: center;
         background-size: cover;
         font-size: 100px;
-        margin-top: 15%;
+        margin-top: 18%;
         background-image: url("journey-painting-wallpaper (1).jpg");
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
@@ -58,7 +58,7 @@
         border: none;
         border-radius: 20px;
         max-width: fit-content; /* height: 5%; */
-        box-shadow: 8px 12px 30px rgba(202, 128, 42, 0.521);
+        box-shadow: 8px 12px 30px rgba(202, 79, 42, 0.555);
         background-color: bisque;
         box-sizing: border-box;
         margin-left: auto;
@@ -78,13 +78,14 @@
       }
       button {
         padding: 2px;
-        margin-left: 10px;
+        /* margin-left: 10px; */
         margin-top: 4.4px;
         background-color: transparent;
         border: none;
         border-radius: 12px;
         cursor: pointer;
         color: inherit;
+        font-family: inherit;
 
       }
       footer {
@@ -122,6 +123,17 @@
       .search input {
         padding-right: 30px;
       }
+      .search input:hover {
+        padding-right: 30px;
+        box-shadow: 3px 8px 60px 2px rgba(132, 32, 163, 0.397);
+        transition: all 0.3s ease-in-out;
+        border: none;
+
+      }
+      input:hover{
+        border: none;
+      }
+
       #hh {
         display: flex;
         position: absolute;
@@ -149,18 +161,19 @@
         margin-top: 3%;
         flex-direction: column;
         position: absolute;
-        height: 100vh;
+        height: 40vh;
         border-radius: 15px;
         border-right: 2px none #111222;
-        box-shadow: 1px 12px 12px 1px wheat;
+        box-shadow: 1px 12px 12px 1px rgba(245, 206, 179, 0.493);
         color: inherit;
         margin-right: auto;
         width: 10%;
-        align-content: space-around;
-        /* transition: width 0.4s ease-in-out; */
+        justify-content: space-evenly;
+        transition: all 0.5s ease-in-out;
       }
       #menu2 button {
         margin-bottom: 2px;
+        margin-top: 1px;
       }
 
       span{
@@ -174,15 +187,19 @@
       }
       #show{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         transition: all 0.4s ease-in-out;
-        justify-content: center;
       } 
       #show img{
+        display: flex;
+        margin-top: auto;
+        margin-bottom: 5px;
+        margin-left: auto;
+        margin-right: auto;
         width: 40%;
         height: 40vh;
-        border: 1px solid black;
-        margin-right: 9px;
+        border: 1px none black;
+        /* margin-right: 9px; */
         border-radius: 12px;
         
 
@@ -200,6 +217,24 @@
         margin-right: 5px;
         position: static;
       }
+      #hh{
+        box-shadow: none;
+      }
+      #dick:hover{
+        box-shadow: 1px 5px 70px 55px  rgba(255, 136, 0, 0.363);
+        transition: all 0.6s ease-in-out;
+        background-color: rgba(255, 136, 0, 0.363);
+        
+
+      }
+      #menu2 button{
+        border-radius: 10px;
+        width: 55%;
+        margin-top: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 1px 7px 12px   rgba(255, 136, 0, 0.247);
+     }
     </style>
   </head>
   <body>
@@ -207,10 +242,10 @@
       <div class="menu">
         <button id="hh"class = "gg">Home</button>
         <div id="menu2">
-          <a href=""><button>Profile</button></a>
-          <a href=""><button>Preferences</button></a>
-          <a href=""><button>Settings</button></a>
-          <a href=""><button>Contact us</button></a>
+         <button>Profile</button>
+         <button>Sign-in</button>
+         <button>Settings</button>
+
         </div>
       </div>
       <div id="nav">
@@ -241,11 +276,8 @@
     <h3>Projects:</h3>
     <h4>Weather panda:</h4>
     <div id="show">
-      <img src="nav1.png" alt="">
       <img src="nav2.png" alt="">
       <img src="navwhite1.png" alt="">
-      <img src="navwhite2.png" alt="">
-
     </div>
     <footer>
       All rights reserved &#169; GenPanda &#174; 2024
