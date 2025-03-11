@@ -38,8 +38,14 @@
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
       }
+      #rr{
+        width: 83%;
+        color: wheat;
+        height: 2px;
+      }
       #one {
-        height: 50vh;
+        position: sticky;
+        height: 37vh;
         border-radius: 30px;
         width: 70%;
         margin:  auto;
@@ -249,6 +255,58 @@
       transition: all 0.5s ease-in-out;
 
      }
+     #wshow{
+      margin-top: 6px;
+      padding: 15px;
+     
+      width: 85%;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      flex-direction: row;
+      flex-wrap:wrap;
+     }
+     img:hover{
+      box-shadow: 8px 12px 30px 10px rgba(255, 68, 0, 0.5);
+
+      transform: scale(3.2);
+      transition: all 0.5s ease-in-out;
+     }
+     #red{
+      margin-top: 5px;
+     }
+     #dshow{ 
+      margin-top: 6px;
+      padding: 15px;
+      display: flex;
+      flex-direction: row;
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+      justify-content: center;
+      
+     }
+     #dshow:hover{
+      box-shadow: 8px 12px 30px 10px rgba(164, 153, 180, 0.623);
+      border-radius: 12px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      transform: scale(1.1);
+      transition: all 0.5s ease-in-out;
+     }
+     #wshow:hover{
+      margin-top: 20px;
+      margin-bottom: 30px;
+
+      box-shadow: 8px 12px 30px 10px rgba(164, 153, 180, 0.623);
+      border-radius: 12px;
+
+      transform: scale(1.1);
+      transition: all 0.5s ease-in-out;
+     }
+     #pr{
+      padding: 20px;
+     }
     </style>
   </head>
   <body>
@@ -256,15 +314,15 @@
       <div class="menu">
         <button id="hh"class = "gg">Home</button>
         <div id="menu2">
-         <button>Profile</button>
-         <button>Sign-in</button>
-         <button>Settings</button>
+         <button><a target="#" href="https://www.linkedin.com/authwall?trk=gf&trkInfo=AQFSRX8ci8PvJwAAAZWGfFi46TZrcrkjKWqEBXBRWWI9f1QX2i-KkkY5vHBjfOgwnOzI7M6JD5mnkomIzb1gRmNdZ3e75qmz6DfqlegLHfxtsypFGMqEdox-2BaHptqY1QtDg6c=&original_referer=https://www.google.com/&sessionRedirect=https%3A%2F%2Fin.linkedin.com%2Fin%2Faravind-budaraju-047ab7335">Linkedin Profile</a></button>
+         <button><a href="https://github.com/crazycat8686" target="#">GitHub Profile</a></button>
+         <button><a href="https://www.instagram.com/budarajuaravind/" target="#">Instagram</a></button>
 
         </div>
       </div>
       <div id="nav">
         <div class="search">
-          <input type="text" placeholder="Enter movie" id="search">
+          <input type="text" placeholder="Search for My projects" id="search">
           <i class="material-icons">search</i>
         </div>
       </div>
@@ -273,25 +331,47 @@
     </div>
 
     <div id="one">
-      <h1 id="g">GenMovies&#174;</h1>
+      <h1 id="g">GenPanda&#174;</h1>
     </div>
-    <!-- <div id="con"></div>
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/nu_pCVPKzTk?si=3IUtEqS4_BC0vPBY"
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      referrerpolicy="strict-origin-when-cross-origin"
-      allowfullscreen
-      style="border-radius: 20px"
-    ></iframe> -->
-    <h3>Projects:</h3>
-    <h4>Weather panda:</h4>
+<br>
+    <div id="pr">
+      <h3 style="font-size: 35px;">Projects:</h3>
+    <ul>
+    <li><h4>Weather panda:</h4></li>
+    <p>Gives accurate insights on current,future weather data.</p><p> Also included "Agrigro" that can suggest best crops for the respective location and season.</p>
      <div id="show">
-      <img src="nav2.png" alt="">
-      <img src="navwhite1.png" alt="">
+      <div id="wshow">
+        <img src="nav2.png"  style="width: auto;" alt="">
+        <img src="navwhite1.png" style="width: auto;" alt="">
+        <img style="width: auto;"  src="image copy.webp" alt="">
+      </div>
+      <a id="red" style="text-align: center;" href="https://crazycat8686.github.io/WeatherPanda/">Click here to get redirected</a>
+      <br>
+      <br>
+      <li>      <h4> Dailypanda:</h4>
+      </li>
+      <p>A mess menu application that automatically shows upcoming meal menu according to time and date (more features yet to be added)</p>
+      <div id="dshow">
+        <img src="dp0.webp" style="width: auto;" alt="">
+      <img src="dp1.webp" style="width: auto;" alt="">
+      </div>
+      <br>
+      <br>
+      <li><h4>Chef.panda</h4></li>
+      <p> A recipe Website that can suggest recipes based on the ingredients available with user.Also has an forum where people can share their opinion.(under development)</p>
+
+        <ul>
+       <li>Recipe suggestion</li>
+          <li>Forum</li>
+          <li>favourite Recipes</li>
+          <li>Interactive Guidance with the help of Ai</li>
+        </ul>
+      </div>
+
+    </ul>
+    </div>
+
+
     </div>
     <footer>
       All rights reserved &#169; GenPanda &#174; 2024
@@ -300,8 +380,7 @@
           >Contact us</a
         >
       </h3>
-    </footer> -->
-    <script src="movies.js"></script>
+    </footer>
 
     <script>
       let hi = document.getElementById("g");
