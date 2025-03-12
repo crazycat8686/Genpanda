@@ -47,16 +47,16 @@
         position: sticky;
         height: 37vh;
         border-radius: 30px;
-        width: 70%;
+        width: 50%;
         margin:  auto;
       }
       h1:hover {
         background-image: url("7zWJXx.jpg");
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
-        transform: scale(1.1);
+        transform: scale(1.8);
         background-size: cover;
-        transition: transform 0.3s ease, color 0.8s ease-in-out;
+        transition: all 0.4s ease-in-out, color 0.8s ease-in-out;
       }
       #nav {
         position: sticky;
@@ -95,7 +95,7 @@
 
       }
       footer {
-        margin-top: 100%;
+        margin-top: 10%;
         text-align: center;
         font-weight: bolder;
       }
@@ -141,6 +141,7 @@
       input:hover{
         border: none;
       }
+      
 
       #hh {
         display: flex;
@@ -213,7 +214,7 @@
 
       }
       #show img:hover{
-        transform: scale(1);
+        transform: scale(1.03);
         height: 50vh;
         width: 50%;
         transition: all 0.6s ease;
@@ -258,24 +259,30 @@
      #wshow{
       margin-top: 6px;
       padding: 15px;
-     
+      border: 2px solid rgba(240, 233, 233, 0.151);
       width: 85%;
+      border-radius: 18px;
       margin-left: auto;
       margin-right: auto;
       display: flex;
       flex-direction: row;
       flex-wrap:wrap;
      }
+     img{
+      border-radius: 12px;
+     }
      img:hover{
       box-shadow: 8px 12px 30px 10px rgba(255, 68, 0, 0.5);
-
-      transform: scale(3.2);
+      margin: 10px;
+      padding: 5px;
       transition: all 0.5s ease-in-out;
      }
      #red{
       margin-top: 5px;
      }
      #dshow{ 
+      border: 2px solid rgba(240, 233, 233, 0.151);
+      border-radius: 18px;
       margin-top: 6px;
       padding: 15px;
       display: flex;
@@ -307,6 +314,68 @@
      #pr{
       padding: 20px;
      }
+     #abt{
+      border-radius: 12px;
+      padding: 13px;
+     }
+     #abcard{
+      border-radius: 12px;
+      padding-left: 5%;
+      padding-right: 5%;
+      margin-left: auto;
+      border: 2px solid rgba(236, 157, 128, 0.301);
+      margin-right: auto;
+      width: 60%;
+      
+  
+     }
+     h4{
+      color: orangered;
+      font-size: 36px;
+     }
+     #abcard:hover{
+      margin-top: 20px;
+      margin-bottom: 30px;
+
+      box-shadow: 8px 12px 30px 10px rgba(238, 173, 130, 0.623);
+      border-radius: 19px;
+      background-size: fill;
+      background-repeat: no-repeat;
+      margin-top: 20px;
+      transform: scale(1.1);
+      transition: all 0.5s ease-in-out;
+
+
+     }
+     
+     #name{
+      color: orangered;
+      font-weight: bolder;
+      font-size: 33px;
+      text-align: center;
+      margin-bottom: 1%;
+     }
+     #subline{
+      display: none;
+      height: 2px;
+      background-color: black;
+      width: 20%;
+      color: black;
+      margin-right: auto;
+      margin-top: 0%;
+    }
+    #ic{
+      height: 150px;
+      width: 150px;
+      margin-left: auto;
+      margin-right: 30px;
+      margin-top: 33px;
+    }
+    #pandic{
+      display: flex;
+      flex-direction: row;
+    }
+      
     </style>
   </head>
   <body>
@@ -347,7 +416,7 @@
         <hr>
         <img src="nav2.png"  style="width: auto;" alt="">
         <img src="navwhite1.png" style="width: auto;" alt="">
-        <img style="width: auto;"  src="image copy.webp" alt="">
+        <img   src="image copy.webp" style="width: auto;" alt="">
 
 
       </div>
@@ -379,8 +448,28 @@
 
 
     </div>
+<hr style="width: 75%;">
+    <div id="abt">
+      <h2 id="sbth2">About Me:</h2>
+      <div id="abcard">
+        <h3 id="name">Aravind Budaraju</h3>
+        <div id="subline"></div>
+        <div id="pandic">
+        <ul>
+          <h3>Skills</h3>
+
+          <li>Html,css and javascript</li>
+          <li>React Native - Beginner</li>
+          <li>Learnning ML</li>
+          <li>Java,python</li>
+        </ul>
+        <img src="image.png" id="ic" style="border-radius: 50%;" alt="">
+        </div>
+      </div>
+      </div>
+    </div>
     <footer>
-      All rights reserved &#169; GenPanda &#174; 2024
+      All rights reserved &#169; GenPanda &#174; 2025
       <h3>
         <a href="mailto:budarajuaravind@gmail.com" style="text-decoration: none"
           >Contact us</a
