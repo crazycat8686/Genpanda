@@ -13,9 +13,9 @@ body{
     background-repeat: no-repeat;
     background: transparent;
     backdrop-filter: blur(300px);
-    margin-top: 30px;
-    margin-bottom: 0%;
-    height: 37vh;
+    margin-top: 30%;
+    margin-bottom: 20%;
+    height: 20vh;
     border-radius: 30px;
     align-content: center;
   }
@@ -30,9 +30,7 @@ body{
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
-#impa{
-    display: none;
-}
+
 #pandic{
     display: flex;
     flex-direction: column;
@@ -189,8 +187,7 @@ body{
     display: flex;
     margin-top: auto;
     margin-bottom: 5px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-right: 5px;
     width: 40%;
     height: 40vh;
     border: 1px none black;
@@ -270,13 +267,14 @@ body{
   border: 2px solid rgba(240, 233, 233, 0.151);
   border-radius: 18px;
   margin-top: 6px;
-  padding: 15px;
+  padding: 20px;
   display: flex;
   flex-direction: row;
-  width: 50%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
+  overflow-x: auto;
   
   }
   #dshow:hover{
@@ -351,19 +349,14 @@ body{
   margin-top: 0%;
   }
   #ic{
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
   margin-left: auto;
-  margin-right: 30px;
-  margin-top: 33px;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
   }
-  #bgp{
-    background-image: url("pandabeach.png");
-    background-repeat: no-repeat;
-    position: static;
-    z-index: auto;
 
-  }
   
 
   
@@ -559,10 +552,8 @@ body {
   } 
   #show img{
     display: flex;
-    margin-top: auto;
     margin-bottom: 5px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-right: 2px;
     width: 40%;
     height: 40vh;
     border: 1px none black;
@@ -730,10 +721,6 @@ body {
   margin-top: 33px;
   }
   
-  #impa{
-   width: auto;
-   height: auto;
-  }
   
   #pandic{
     display: flex;
