@@ -652,6 +652,8 @@ body {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
+
+  
   justify-content: center;
   
   }
@@ -681,11 +683,55 @@ body {
       box-shadow: 8px 10px 26px 10px rgba(255, 172, 147, 0.623);
 
   }
-   #dshow img{
+
+    #m0show{ 
+  border: 2px solid rgba(240, 233, 233, 0.151);
+  border-radius: 18px;
+  margin-top: 6px;
+  padding: 15px;
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  
+  }
+  #m0show img{
       box-shadow: 8px 10px 26px 10px rgba(255, 172, 147, 0.623);
 
   }
-  #mshow:hover{
+ 
+  #m0show:hover{
+  box-shadow: 8px 12px 30px 10px rgba(164, 153, 180, 0.623);
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transform: scale(1.2);
+  transition: all 0.5s ease-in-out;
+  }
+
+    #m2show{ 
+  border: 2px solid rgba(240, 233, 233, 0.151);
+  border-radius: 18px;
+  margin-top: 6px;
+  padding: 15px;
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  
+  }
+  #m2show img{
+      box-shadow: 8px 10px 26px 10px rgba(255, 172, 147, 0.623);
+
+  }
+ 
+  #m2show:hover{
   box-shadow: 8px 12px 30px 10px rgba(164, 153, 180, 0.623);
   border-radius: 20px;
   margin-top: 20px;
