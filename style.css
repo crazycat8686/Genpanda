@@ -8,12 +8,12 @@ body{
     transition: background-color 0.8s ease-in-out;
   
 }
-#seg1{
+/* #seg1{
   background-color: red;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-}
+} */
 #one {
     background-image: url("pandabeach.png");
     background-repeat: no-repeat;
@@ -258,7 +258,9 @@ body{
   overflow-x: auto;
   }
   img{
+    border-style: solid;
   border-radius: 12px;
+  border-color: yellow;
   }
   img:hover{
   box-shadow: 8px 12px 30px 10px rgba(255, 68, 0, 0.5);
@@ -271,6 +273,7 @@ body{
   }
   #dshow{ 
   border: 2px solid rgba(240, 233, 233, 0.151);
+  gap: 9px;
   border-radius: 18px;
   margin-top: 6px;
   padding: 20px;
@@ -279,7 +282,7 @@ body{
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  justify-content: center;
+  justify-content: space-around;
   overflow-x: auto;
   
   }
@@ -562,8 +565,9 @@ body {
     margin-right: 2px;
     width: 40%;
     height: 40vh;
-    border: 1px none black;
+    /* border: 1px  black; */
     /* margin-right: 9px; */
+    /* border: 0.4px solid orangered; */
     border-radius: 12px;
     
   
@@ -632,11 +636,13 @@ body {
   padding: 5px;
   transition: all 0.5s ease-in-out;
   }
+  
   #red{
   margin-top: 5px;
   }
   #dshow{ 
   border: 2px solid rgba(240, 233, 233, 0.151);
+  gap: 20px;
   border-radius: 18px;
   margin-top: 6px;
   padding: 15px;
@@ -650,10 +656,40 @@ body {
   }
   #dshow:hover{
   box-shadow: 8px 12px 30px 10px rgba(164, 153, 180, 0.623);
-  border-radius: 12px;
+  border-radius: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
-  transform: scale(1.1);
+  transform: scale(1.2);
+  transition: all 0.5s ease-in-out;
+  }
+    #mshow{ 
+  border: 2px solid rgba(240, 233, 233, 0.151);
+  border-radius: 18px;
+  margin-top: 6px;
+  padding: 15px;
+  display: flex;
+  gap: 4px;
+  flex-direction: row;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+  
+  }
+  #mshow img{
+      box-shadow: 8px 10px 26px 10px rgba(255, 172, 147, 0.623);
+
+  }
+   #dshow img{
+      box-shadow: 8px 10px 26px 10px rgba(255, 172, 147, 0.623);
+
+  }
+  #mshow:hover{
+  box-shadow: 8px 12px 30px 10px rgba(164, 153, 180, 0.623);
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transform: scale(1.2);
   transition: all 0.5s ease-in-out;
   }
   #wshow:hover{
