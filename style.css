@@ -271,7 +271,8 @@ body{
   #red{
   margin-top: 5px;
   }
-  #dshow{ 
+ 
+   #mshow{ 
   border: 2px solid rgba(240, 233, 233, 0.151);
   gap: 9px;
   border-radius: 18px;
@@ -286,7 +287,7 @@ body{
   overflow-x: auto;
   
   }
-  #dshow:hover{
+  #mshow:hover{
   box-shadow: 8px 12px 30px 10px rgba(164, 153, 180, 0.623);
   border-radius: 12px;
   margin-top: 20px;
