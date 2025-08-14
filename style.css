@@ -43,6 +43,11 @@ body{
       box-shadow: 8px 10px 26px 10px rgba(255, 172, 147, 0.623);
 
   }
+
+  #mshow img{
+      box-shadow: 8px 10px 26px 10px rgba(255, 172, 147, 0.623);
+
+  }
  
   #m0show:hover{
   box-shadow: 8px 12px 30px 10px rgba(164, 153, 180, 0.623);
