@@ -9,7 +9,7 @@ body{
   
 }
 #one {
-    background-image: url("pandabeach.png");
+    background-image: url("pandabeach.webp");
     background-repeat: no-repeat;
     background: transparent;
     backdrop-filter: blur(300px);
@@ -26,7 +26,7 @@ body{
   background-size: cover;
   font-size: 43px;
   width: 100%;
-  background-image: url("journey-painting-wallpaper (1).jpg");
+  background-image: url("journey-painting-wallpaper\ \(1\).webp");
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -41,7 +41,7 @@ body{
 
 
   h1:hover {
-    background-image: url("7zWJXx.jpg");
+    background-image: url("7zWJXx.webp");
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     transform: scale(1.3);
